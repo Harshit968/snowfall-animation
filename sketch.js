@@ -19,13 +19,13 @@ function setup(){
     
    
 
-    ground = new Ground(600,height,1200,20);
+    
 }
 
 function draw(){ 
 Engine.update(engine);
 background(bg); 
-ground.display();
+
 rand = Math.round(random(1,4));
 
 
